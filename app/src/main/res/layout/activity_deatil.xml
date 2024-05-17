@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETAIL PEMESANAN"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPHONE:"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:id="@+id/tvIphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iPhone Model"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAMBAHAN:"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:id="@+id/tvTambahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambahan Barang"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAMA RENTAL:"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:id="@+id/tvLamaRental"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 Hari"
+        android:layout_marginTop="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL HARGA:"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RP. "/>
+</LinearLayout>
